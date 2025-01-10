@@ -113,6 +113,28 @@
 .vision-card-3 .vision-card-btn{
   background-color: #FFC239;
 }
+/* Quote */
+
+.quota{
+  background-image: url('../assets/quote-bg.png');
+  height: 200px;
+  background-repeat: no-repeat;
+  /* padding: 40px; */
+  background-position: 20px 20px;
+  background-color: #f6fdfb;
+  margin: 24px;
+  border-radius: 16px;
+}
+.quota p{
+  padding: 48px 24px 12px 24px;
+}
+.quota h2{
+  padding: 12px 24px;
+}
+.quota h3{
+  padding: 0 24px;
+  color: #0e0e0e5b;
+}
 
 /* Recent News */
 
