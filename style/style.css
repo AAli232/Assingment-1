@@ -6,6 +6,7 @@
   font-family: Fira Sans, serif;
 }
 /* Share Style */
+
 .btn{
   background-color: #006A50;
   border: none;
@@ -19,10 +20,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 40px;
+  margin: 24px 20px;
   background-color: #C6E4D6;
   border-radius: 24px;
-  padding: 100 80;
 }
 .bannar-content{
   width: 622;
@@ -46,3 +46,65 @@
   height: 326;
   padding: 40px;
 }
+.vision-content{
+  margin: 40px 24px;
+}
+.vision-title{
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.vision-description{
+  color: #3f3f3f;
+  margin-bottom: 32px;
+}
+.vision-card{
+  display: flex;
+  padding: 32px;
+  justify-content: space-around;
+  align-items: center;
+}
+.vision-card-1{
+  background-color: #548ff534;
+  text-align: left;
+  padding: 32px;
+  border-radius: 16px;
+  margin: 24px;
+}
+.vision-card-img{
+  margin-bottom: 24px;
+}
+.vision-card-title{
+  margin-bottom: 24px;
+}
+.vision-card-description{
+  margin-bottom: 24px;
+}
+.vision-card-btn{
+  background-color: #5490F5;
+  border: none;
+  padding: 11px 20px;
+  border-radius: 8px;
+  color: white;
+}
+.vision-card-2{
+  background-color: #C6E4D6;
+  text-align: left;
+  padding:32px;
+  border-radius: 16px;
+  margin: 24px;
+}
+.vision-card-2 .vision-card-btn{
+  background-color: #09A15C;
+}
+.vision-card-3{
+  background-color: #F7EBCF;
+  text-align: left;
+  padding:32px;
+  border-radius: 16px;
+  margin: 24px;
+}
+.vision-card-3 .vision-card-btn{
+  background-color: #FFC239;
+}
+
+
