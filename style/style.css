@@ -15,7 +15,10 @@
   font-weight: 200;
   margin-top: 24px;
   border-radius: 8px;
+  font-size: medium;
+  font-weight: 400;
 }
+/* Bannar */
 .bannar{
   display: flex;
   justify-content: space-between;
@@ -38,7 +41,7 @@
 }
 .bannar-description{
   font-weight: 1000;
-  font-size: x-large;
+  font-size: xxx-large;
   margin-bottom: 24px;
 }
 .bannar-img{
@@ -46,10 +49,14 @@
   height: 326;
   padding: 40px;
 }
+
+/* The Vision of Future */
+
 .vision-content{
   margin: 40px 24px;
 }
 .vision-title{
+  font-size: xx-large;
   font-weight: 800;
   margin-bottom: 24px;
 }
@@ -107,4 +114,53 @@
   background-color: #FFC239;
 }
 
+/* Recent News */
+
+.news-heading{
+  margin: 24px;
+}
+.news-heading-title{
+  /* margin: 24px; */
+  font-weight: 800;
+  font-size: xx-large;
+}
+.news-heading-description{
+  color: #0e0e0e80;
+  margin-top: 24px;
+}
+.news-content{
+  display: flex;
+  background-color: rgb(252, 250, 250);
+  border-radius: 24px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 48px;
+  margin: 24px;
+}
+.news-img{
+  width: 47%px;
+  height: 47%;
+  border-radius: 24px;
+}
+.news-content-details{
+  padding: 32px;
+}
+.news-title{
+  margin: 12px;
+  font-size: xx-large;
+}
+.news-ref-img{
+  margin: 12px;
+  width: 134px;
+  height: 40px;
+}
+.dop{
+  margin: 12px;
+}
+.news-details{
+  margin: 12px;
+}
+.news-content-details .btn{
+  margin: 12px;
+}
 
