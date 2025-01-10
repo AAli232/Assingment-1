@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Fira Sans, serif;
+}
+/* Share Style */
+.btn{
+  background-color: #006A50;
+  border: none;
+  color: white;
+  padding: 17px 34px;
+  font-weight: 200;
+  margin-top: 24px;
+  border-radius: 8px;
+}
+.bannar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 40px;
+  background-color: #C6E4D6;
+  border-radius: 24px;
+  padding: 100 80;
+}
+.bannar-content{
+  width: 622;
+  height: 326;
+  padding: 40px;
+}
+.bannar-title{
+  color: #0e0e0e;
+  margin-bottom: 24px;
+  text-shadow: -1px 2px 2px #8b8b8b;
+  font-size: medium;
+  font-weight: 500;
+}
+.bannar-description{
+  font-weight: 1000;
+  font-size: x-large;
+  margin-bottom: 24px;
+}
+.bannar-img{
+  width: 622;
+  height: 326;
+  padding: 40px;
+}
