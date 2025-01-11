@@ -18,6 +18,11 @@
   font-size: medium;
   font-weight: 400;
 }
+.btn:hover{
+  background-color: #8ceed6;
+  color: #0e0e0e;
+  cursor: pointer;
+}
 /* Bannar */
 .bannar{
   display: flex;
@@ -92,6 +97,11 @@
   padding: 11px 20px;
   border-radius: 8px;
   color: white;
+  cursor: pointer;
+}
+.vision-card-btn:hover{
+  background-color: #163163;
+  
 }
 .vision-card-2{
   background-color: #C6E4D6;
@@ -103,6 +113,10 @@
 .vision-card-2 .vision-card-btn{
   background-color: #09A15C;
 }
+.vision-card-2 .vision-card-btn:hover{
+  background-color: #44f3a4;
+  color: #0e0e0e;
+}
 .vision-card-3{
   background-color: #F7EBCF;
   text-align: left;
@@ -112,6 +126,10 @@
 }
 .vision-card-3 .vision-card-btn{
   background-color: #FFC239;
+}
+.vision-card-3 .vision-card-btn:hover{
+  background-color: #fab002;
+  color: #0e0e0e;
 }
 /* Quote */
 
@@ -209,9 +227,17 @@
   font-size: xx-large;
   font-weight: 800;
   margin: 24px;
+  cursor: pointer;
+}
+.donate-btn:hover{
+  background-color: #C6E4D6;
 }
 .ex{
   background-color: #C6E4D6;
+}
+.ex:hover{
+  background-color: rgb(167, 197, 197);
+  color: white;
 }
 .donate-confirm{
   display: flex;
@@ -234,6 +260,10 @@ align-items: center;
 margin: 10px auto;
 display: flex;
 border-radius: 8px;
+cursor: pointer;
+}
+.donate-confirm-btn:hover{
+  background-color: #1b8d59;
 }
 .donate-confirm-btn a{
   text-decoration: none;
@@ -270,6 +300,10 @@ border: none;
 padding: 8px;
 border-radius: 0 5px 5px 0;
 background-color: #006A50;
+cursor: pointer;
+}
+.subscribe-btn:hover{
+  background-color: #030f0c;
 }
 .subscribe-btn a{
   text-decoration: none;
@@ -277,6 +311,6 @@ background-color: #006A50;
   color: white;
 }
 .promise{
-  color: rgba(128, 128, 128, 0.466);
+  color: rgba(26, 25, 25, 0.466);
   padding: 12px;
 }
